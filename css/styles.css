@@ -367,7 +367,7 @@ padding: 100px 0;
     gap: 24px;
 }
 .benefits-item {
-flex-basis: calc((100% - 3 * 24px) / 4);
+flex-basis: calc((100% - 72px) / 4);
 }
 .header-three {
     margin-bottom: 8px;
@@ -453,6 +453,10 @@ padding-bottom: 120px;
 }
 /* app-list */
 
+.app-list-item {
+    width: calc((100% - 48px) / 3);
+}
+
 .app-list {
     display: flex;
     column-gap: 24px;
@@ -460,9 +464,7 @@ padding-bottom: 120px;
     flex-wrap: wrap;
 }
 
-.app-list-item {
-width: calc((100% - 48px) / 3);
-}
+
 
 .app-text {
     text-align: start;
