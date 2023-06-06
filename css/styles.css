@@ -445,7 +445,12 @@ padding-bottom: 120px;
     border: 1px solid var(--cornflower);
         border-radius: 4px;
 }
-
+.filter-item:hover {
+    border: 1px solid transparent;
+}
+.filter-item:focus {
+    border: 1px solid transparent;
+}
 /* app-list */
 
 .app-list {
