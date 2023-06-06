@@ -366,7 +366,7 @@ padding: 100px 0;
     gap: 24px;
 }
 .benefits-item {
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 72px) / 4);
 }
 .header-three {
     margin-bottom: 8px;
@@ -464,6 +464,7 @@ padding-bottom: 120px;
 .app-list-item {
     width: calc((100% - 48px) / 3);
 }
+
 .app-text {
     text-align: start;
     padding: 32px 16px;
